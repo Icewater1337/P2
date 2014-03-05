@@ -1,0 +1,19 @@
+# P2 Course, 2014
+
+1st Week, please push your solutions by Friday, February 28, 13:00 o'clock to our server. The deadline is on Friday only this week.
+
+## File filter task
+
+- Implement a filter that filters files based on their names. The filter is contained and described in the class `FilePattern`.
+
+- Your solution must pass all 42 tests. However, you should have a general solution. Your solution should work if we decide to test files having other names than the ones from the current tests. Feel free to add more tests.
+
+- To run the test file in Eclipse, select *Run As > JUnit Test* from the menu.
+
+- The version history in the master branch must consist of good, clear commits. Begin the commit message with a single short (less than 50 character) line summarizing the change, followed by a blank line and then a more thorough description. 
+
+- We recommend you to use Java 7.
+
+## More Information
+
+- Please follow <http://twitter.com/p2unibe> 

@@ -1,0 +1,20 @@
+# P2 Course 2014, Week 2 #
+
+2nd Week, please push your solutions by Thursday, March 6, 13:00 o'clock to our server.
+
+## Snakes and Ladders
+
+Due to your outstanding performance in programming, you've been hired by the prestigious ACME Inc, Programming division. At the moment ACME Inc. is into game development. Their latest game, *Snakes and Ladders*, has become a real success. Therefore, they are currently looking into adding new features.
+
+Your first task is to modify the current implementation of the Snakes and Ladders game (presented during the lecture) in the following ways:
+
+1. Add two new types of squares: `RollAgain` and `SlowDown`. When a player steps on the `RollAgain` square he can roll again with the die (and advances normally based on the roll). If a player steps on the `SlowDown` square, next time he rolls the die, if a number greater than one is rolled, he will divide the roll by two: if he rolls 2 he will move only 1 square (2/2 = 1), if he rolls 5 he will move only 2 squares (5/2 = 2), etc. However, if he rolls 1 then he moves 1 square.
+
+2. Write a unit test `SlowDownTest` that verifies that `SlowDown` works as intended. (The test should verify the particular functionality of the square `SlowDown`)
+
+3. Add more test methods to `RollAgainTest` that verify that your `RollAgain` square works as intended. Feel free to change the existing parts of the test. (The test should verify the particular functionality of the square `RollAgain`)
+
+4. Modify the game such that the Game.main method will run on a field with a `RollAgain` and a `SlowDown` square. The `RollAgain` and `SlowDown` squares should be distinguishable in the textual output of the game.
+
+5. Add API documentation to the snakes.ISquare interface according to the Oracle-provided rules (see [http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html))
+

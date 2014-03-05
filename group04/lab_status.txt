@@ -1,0 +1,38 @@
+            01      02      03      04      05      06      07      08      09      10      11      admitted
+
+<<<<<<< HEAD:students2014.txt
+Group 01
+Group 02
+Group 03
+Group 04
+Group 05
+Group 06
+Group 07
+Group 08
+Group 09
+Group 10
+Group 11
+Group 12
+Group 13
+Group 14
+Group 15
+Group 16
+Group 17
+Group 18
+Group 19
+Group 20
+Group 21
+=======
+Group 04    ok
+
+>>>>>>> 5b8aed0857feda6259b0b02730667c782baa12ff:lab_status.txt
+
+ wow:       especially rad solution.
+  ok:       accepted.
+ nef:       revision required by next week.
+fail:       failed assignment. 
+  --:       nothing was submitted.
+date:      deadline extended until this date.
+
+
+
